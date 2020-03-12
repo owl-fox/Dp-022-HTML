@@ -1,0 +1,46 @@
+body, html
+{
+  width: 100%;
+  height: 100%;
+  color: #ffff00;
+  background-color: #000;
+  font-family: Arial, Helvetica, sans-serif
+  
+}
+
+.block 
+{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 1200px; 
+}
+
+p {
+  margin-top: 0.2em; /* Отступ сверху */
+  margin-bottom: 0.2em; /* Отступ снизу */
+  line-height: 1;
+  font-weight: bold;
+}
+
+.line1 {font-size: 60%;}
+.line2 {font-size: 80%;}
+.line3 {
+  font-size: 100%;
+  text-transform: uppercase
+}
+.line4 {font-size: 140%;}
+.line5 {
+  font-size: 160%;
+  text-transform: uppercase
+}
+.line6 {font-size: 180%;}
+.line7 {font-size: 200%;}
+.line8 {font-size: 220%;}
+.line9 {font-size: 240%;}
+.line10 {font-size: 260%;}
+.line11 {font-size: 280%;}
+.line12 {font-size: 300%;}
+.line13 {font-size: 320%;}
+.line14 {font-size: 340%;}
+.line15 {font-size: 360%;}
+.line16 {font-size: 380%;}
