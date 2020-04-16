@@ -1,0 +1,644 @@
+*
+  font-family: 'Roboto', sans-serif
+
+header
+  position: relative
+
+nav
+  height: 50px
+  background-color: #212121
+
+.menu
+	display: flex
+	justify-content: space-between
+	padding: 13px 70px
+	margin: 0
+	list-style-type: none
+
+.menu_link
+	color: #ffffff
+	font-size: 15px
+	font-weight: 300
+
+.menu_item
+	border-right: 2px dotted black
+	padding-right: 28px
+
+.subheader
+  position: absolute
+  width: 100%
+  height: 84px
+  background-color: rgba(0, 0, 0, 0.6)
+
+.subheader_logo
+	display: block
+	max-width: 100%
+	margin-top: 16px
+
+.subheader_official
+	margin-top: 6px
+	font-size: 13px
+	font-weight: 400
+	color: rgba(255, 255, 255, 255)
+	text-align: left
+	opacity: 0.5
+
+.subheader_call
+	color: #ffffff
+	font-size: 12px
+	font-weight: 300
+	margin-top: 19px
+	text-align: right
+
+.subheader_phone
+	display: block
+	margin-top: 8px
+	color: #ffffff
+	font-size: 22px
+	font-weight: 400
+	text-transform: uppercase
+	text-align: right
+	line-height: 12px
+
+.subheader_btn
+	margin-top: 19px
+	width: 172px
+	height: 46px
+	box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12)
+	border: none
+	border-radius: 4px
+	background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+	font-size: 14px
+	font-weight: 400
+	color: rgba(255, 255, 255, 255)
+	text-align: center
+
+.promo
+  min-height: 800px
+  background: url('../img/uber_back_1.png') center (center / cover) no-repeat
+  padding: 150px 0 135px
+
+.promo_header
+	color: #ffffff
+	font-weight: 700
+	text-transform: uppercase
+	font-size: 60px
+	line-height: 60px
+	margin: 0
+	text-align: center
+
+.promo_subheader
+	color: #ffffff
+	font-weight: 700
+	text-transform: uppercase
+	font-size: 36px
+	line-height: 36px
+	margin: 0
+	margin-top: 22px
+	text-align: center
+
+.promo_descr
+	color: #ffffff
+	font-size: 18px
+	font-weight: 400
+	line-height: 24px
+	margin-top: 23px
+	text-align: center
+
+.promo_btn
+	display: block
+	margin: 118px auto 0 auto
+	width: 259px
+	height: 63px
+	box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12)
+	border: none
+	border-radius: 4px
+	background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+	font-size: 18px
+	font-weight: 400
+	color: rgba(255, 255, 255, 255)
+	text-align: center
+	text-transform: uppercase
+
+.reasons
+  padding: 71px 0 65px 0
+
+.label
+  margin: 0 auto
+  height: 24px
+  width: 112px
+  padding: 5px 12px
+  background-color: #000000
+  color: #ffffff
+  font-size: 11px
+  font-weight: 300
+  text-transform: uppercase
+  text-align: center
+
+
+
+.title
+  margin-bottom: 0
+  margin-top: 38px
+  color: #222222
+  font-size: 38px
+  font-weight: 700
+  text-transform: uppercase
+  text-align: center
+
+.subtitle
+  margin-top: 19px
+  color: #222222
+  font-family: Roboto
+  font-size: 17px
+  font-weight: 400
+  line-height: 21px
+  text-align: center
+
+.reasons .reasons_block
+  display: flex
+  justify-content: center
+  align-items: center
+  margin-top: 35px
+
+.reasons_round
+	display: flex
+	justify-content: center
+	align-items: center
+	margin-right: 26px
+	width: 113px
+	height: 113px
+	background-color: #1eacc7
+	border-radius: 100%
+
+.reasons_descr
+	width: 343px
+
+	.reasons_subtitle
+	  line-height: 21px
+	  color: #1eacc7
+	  font-size: 17px
+	  font-weight: 400
+
+	.reasons_text
+	  color: #202020
+	  font-size: 15px
+	  font-weight: 300
+	  line-height: 21px
+
+.mobile
+	min-height: 824px
+	padding: 48px 0 79px 0
+	.row
+		margin-top: 32px
+	&_item
+		position: relative
+		width: 320px
+		height: 280px
+		margin: 0 auto
+		margin-bottom: 19px
+		padding-top: 92px
+		
+		&_1
+		    background: url('../icons/p1.png') center (center / cover) no-repeat
+		&_2
+			background: url('../icons/p2.png') center (center / cover) no-repeat
+		&_3
+			background: url('../icons/p3.png') center (center / cover) no-repeat
+		&_4
+			background: url('../icons/p4.png') center (center / cover) no-repeat
+		&_5
+			background: url('../icons/p5.png') center (center / cover) no-repeat
+		&_6
+			background: url('../icons/p6.png') center (center / cover) no-repeat
+		&_subtitle
+			color: #ffffff
+			font-size: 24px
+			font-weight: 400
+			line-height: 31px
+			text-transform: uppercase
+			text-align: center
+		&_plus
+			display: flex
+			justify-content: center
+			align-items: center
+			position: absolute
+			bottom: 35px
+			left: 50%
+			transform: translateX(-50%)
+			width: 26px
+			height: 26px
+			background-color: #000000
+			margin: 0 auto
+			border-radius: 100%
+			padding: 6px
+			cursor: pointer
+
+/*Слайдер*/
+.slider
+  max-width: 90%
+  position: relative
+  margin: auto
+  height: 500px
+  margin-bottom: 15px
+
+  .item img
+    object-fit: cover
+    width: 100%
+    height: 500px
+    border: none !important
+    box-shadow: none !important
+
+  .prev
+    cursor: pointer
+    position: absolute
+    top: 0
+    top: 50%
+    width: auto
+    margin-top: -22px
+    padding: 16px
+    color: white
+    font-weight: bold
+    font-size: 18px
+    transition: 0.6s ease
+    border-radius: 0 3px 3px 0
+
+  .next
+    cursor: pointer
+    position: absolute
+    top: 0
+    top: 50%
+    width: auto
+    margin-top: -22px
+    padding: 16px
+    color: white
+    font-weight: bold
+    font-size: 18px
+    transition: 0.6s ease
+    border-radius: 0 3px 3px 0
+    right: 0
+    border-radius: 3px 0 0 3px
+
+  .prev:hover, .next:hover
+    background-color: rgba(25, 24, 24, 0.8)
+
+
+/*Точки под слайдером*/
+.slider-dots
+  text-align: center
+
+.slider-dots_item
+  cursor: pointer
+  height: 12px
+  width: 12px
+  margin: 0 2px
+  background-color: #ddd
+  border-radius: 50%
+  display: inline-block
+  transition: background-color 0.6s ease
+
+.active, .slider-dots_item:hover
+  background-color: #aaa
+
+.slider .item
+  -webkit-animation-name: fade
+  -webkit-animation-duration: 1.5s
+  animation-name: fade
+  animation-duration: 1.5s
+
+@-webkit-keyframes fade
+  from
+    opacity: 0.4
+
+  to
+    opacity: 1
+
+@keyframes fade
+  from
+    opacity: 0.4
+
+  to
+    opacity: 1
+    
+.text
+
+  display: flex
+  align-items: center
+  justify-content: center
+  margin-top: 35px
+
+  
+h1 
+	font-weight: 200 
+	margin: 0.4em 0 
+	font-size: 3.5em
+  text-align: center
+  color: #aaa 
+  font-family: 'Raleway', sans-serif 
+  padding: 1em 2em 
+ 
+footer 
+	padding: 14px 23px 39px 23px
+	background-color: black
+	margin-top: 50px
+	a 
+		&:hover 
+			text-decoration: none
+.footer
+	
+	&_wrapper
+		display: flex 
+		justify-content: space-between
+		align-items: flex-start
+		padding-top: 32px
+	&_wrapper > div 
+		width: 33%
+		margin: 0 auto
+	&_links
+		width: 390px
+		margin: 0 auto
+		
+		&_main 
+			display: flex 
+			justify-content: center
+			justify-content: space-between
+			padding: 0 10px
+			a 
+				color: #ffffff
+				font-size: 15px
+				font-weight: 300
+				text-transform: uppercase
+		&_sub 
+			display: flex 
+			justify-content: space-between
+			margin-top: 10px
+			a 
+				color: #999999
+				font-size: 11px
+				font-weight: 300
+				text-transform: uppercase
+		&_lang 
+			display: block 
+			margin: 0 auto
+			color: #1fbad6
+			font-size: 11px
+			font-weight: 400
+			margin-top: 19px
+			text-transform: uppercase
+			text-align: center	
+
+
+/*Кнопка  звонка
+#popup__toggle
+  bottom: 25px
+  right: 10px
+  position: fixed
+  z-index: 999
+
+.img-circle
+  background-color: #29AEE3
+  box-sizing: content-box
+  -webkit-box-sizing: content-box
+
+.circlephone
+  box-sizing: content-box
+  -webkit-box-sizing: content-box
+  border: 2px solid #29AEE3
+  width: 150px
+  height: 150px
+  bottom: -25px
+  right: 10px
+  position: absolute
+  -webkit-border-radius: 100%
+  -moz-border-radius: 100%
+  border-radius: 100%
+  opacity: .5
+  -webkit-animation: circle-anim 2.4s infinite ease-in-out !important
+  -moz-animation: circle-anim 2.4s infinite ease-in-out !important
+  -ms-animation: circle-anim 2.4s infinite ease-in-out !important
+  -o-animation: circle-anim 2.4s infinite ease-in-out !important
+  animation: circle-anim 2.4s infinite ease-in-out !important
+  -webkit-transition: all .5s
+  -moz-transition: all .5s
+  -o-transition: all .5s
+  transition: all 0.5s
+
+.circle-fill
+  box-sizing: content-box
+  -webkit-box-sizing: content-box
+  background-color: #29AEE3
+  width: 100px
+  height: 100px
+  bottom: 0px
+  right: 35px
+  position: absolute
+  -webkit-border-radius: 100%
+  -moz-border-radius: 100%
+  border-radius: 100%
+  border: 2px solid transparent
+  -webkit-animation: circle-fill-anim 2.3s infinite ease-in-out
+  -moz-animation: circle-fill-anim 2.3s infinite ease-in-out
+  -ms-animation: circle-fill-anim 2.3s infinite ease-in-out
+  -o-animation: circle-fill-anim 2.3s infinite ease-in-out
+  animation: circle-fill-anim 2.3s infinite ease-in-out
+  -webkit-transition: all .5s
+  -moz-transition: all .5s
+  -o-transition: all .5s
+  transition: all 0.5s
+
+.img-circle
+  box-sizing: content-box
+  -webkit-box-sizing: content-box
+  width: 72px
+  height: 72px
+  bottom: 14px
+  right: 49px
+  position: absolute
+  -webkit-border-radius: 100%
+  -moz-border-radius: 100%
+  border-radius: 100%
+  border: 2px solid transparent
+  opacity: .7
+
+.img-circleblock
+  box-sizing: content-box
+  -webkit-box-sizing: content-box
+  width: 72px
+  height: 72px
+  background-image: url("../img/mini.png")
+  background-position: center center
+  background-repeat: no-repeat
+  animation-name: tossing
+  -webkit-animation-name: tossing
+  animation-duration: 1.5s
+  -webkit-animation-duration: 1.5s
+  animation-iteration-count: infinite
+  -webkit-animation-iteration-count: infinite
+
+.img-circle:hover
+  opacity: 1
+
+@keyframes pulse
+  0%
+    transform: scale(0.9)
+    opacity: 1
+
+  50%
+    transform: scale(1)
+    opacity: 1
+
+  100%
+    transform: scale(0.9)
+    opacity: 1
+
+@-webkit-keyframes pulse
+  0%
+    -webkit-transform: scale(0.95)
+    opacity: 1
+
+  50%
+    -webkit-transform: scale(1)
+    opacity: 1
+
+  100%
+    -webkit-transform: scale(0.95)
+    opacity: 1
+
+@keyframes tossing
+  0%
+    transform: rotate(-8deg)
+
+  50%
+    transform: rotate(8deg)
+
+  100%
+    transform: rotate(-8deg)
+
+@-webkit-keyframes tossing
+  0%
+    -webkit-transform: rotate(-8deg)
+
+  50%
+    -webkit-transform: rotate(8deg)
+
+  100%
+    -webkit-transform: rotate(-8deg)
+
+@-moz-keyframes circle-anim
+  0%
+    -moz-transform: rotate(0deg) scale(0.5) skew(1deg)
+    opacity: .1
+    -moz-opacity: .1
+    -webkit-opacity: .1
+    -o-opacity: .1
+
+  30%
+    -moz-transform: rotate(0deg) scale(0.7) skew(1deg)
+    opacity: .5
+    -moz-opacity: .5
+    -webkit-opacity: .5
+    -o-opacity: .5
+
+  100%
+    -moz-transform: rotate(0deg) scale(1) skew(1deg)
+    opacity: .6
+    -moz-opacity: .6
+    -webkit-opacity: .6
+    -o-opacity: .1
+
+@-webkit-keyframes circle-anim
+  0%
+    -webkit-transform: rotate(0deg) scale(0.5) skew(1deg)
+    -webkit-opacity: .1
+
+  30%
+    -webkit-transform: rotate(0deg) scale(0.7) skew(1deg)
+    -webkit-opacity: .5
+
+  100%
+    -webkit-transform: rotate(0deg) scale(1) skew(1deg)
+    -webkit-opacity: .1
+
+@-o-keyframes circle-anim
+  0%
+    -o-transform: rotate(0deg) kscale(0.5) skew(1deg)
+    -o-opacity: .1
+
+  30%
+    -o-transform: rotate(0deg) scale(0.7) skew(1deg)
+    -o-opacity: .5
+
+  100%
+    -o-transform: rotate(0deg) scale(1) skew(1deg)
+    -o-opacity: .1
+
+@keyframes circle-anim
+  0%
+    transform: rotate(0deg) scale(0.5) skew(1deg)
+    opacity: .1
+
+  30%
+    transform: rotate(0deg) scale(0.7) skew(1deg)
+    opacity: .5
+
+  100%
+    transform: rotate(0deg) scale(1) skew(1deg)
+    opacity: .1
+
+@-moz-keyframes circle-fill-anim
+  0%
+    -moz-transform: rotate(0deg) scale(0.7) skew(1deg)
+    opacity: .2
+
+  50%
+    -moz-transform: rotate(0deg) -moz-scale(1) skew(1deg)
+    opacity: .2
+
+  100%
+    -moz-transform: rotate(0deg) scale(0.7) skew(1deg)
+    opacity: .2
+
+@-webkit-keyframes circle-fill-anim
+  0%
+    -webkit-transform: rotate(0deg) scale(0.7) skew(1deg)
+    opacity: .2
+
+  50%
+    -webkit-transform: rotate(0deg) scale(1) skew(1deg)
+    opacity: .2
+
+  100%
+    -webkit-transform: rotate(0deg) scale(0.7) skew(1deg)
+    opacity: .2
+
+@-o-keyframes circle-fill-anim
+  0%
+    -o-transform: rotate(0deg) scale(0.7) skew(1deg)
+    opacity: .2
+
+  50%
+    -o-transform: rotate(0deg) scale(1) skew(1deg)
+    opacity: .2
+
+  100%
+    -o-transform: rotate(0deg) scale(0.7) skew(1deg)
+    opacity: .2
+
+@keyframes circle-fill-anim
+  0%
+    transform: rotate(0deg) scale(0.7) skew(1deg)
+    opacity: .2
+
+  50%
+    transform: rotate(0deg) scale(1) skew(1deg)
+    opacity: .2
+
+  100%
+    transform: rotate(0deg) scale(0.7) skew(1deg)
+    opacity: .2	
+
+
+
+
+
+
